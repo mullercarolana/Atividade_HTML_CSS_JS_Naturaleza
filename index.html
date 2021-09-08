@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS e Responsividade-->
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>Naturaleza</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <h1>Naturaleza</h1>
+            </div>
+            <nav id="navigation">
+                <button id="btn-mobile">Menu</button>
+                <ul id="menu">
+                    <a href="#">Aromaterapia</a>
+                    <a href="#">Cosméticos</a>
+                    <a href="#">Marcas</a>
+                    <a href="#">Ofertas</a>
+                </ul>
+            </nav>
+            <div class="input-field">
+                <input type="text" name="search" id="search" placeholder="Digite aqui">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class= "box-carrousel" src="img/banner_jardimwnf.jpg" alt="banner_jardimwnf">
+            </div>
+            <div class="item">
+                <img class= "box-carrousel" src="img/banner_aromaterapia_promocao.png" alt="banner_aromaterapia_promocao">
+            </div>
+            <div class="item">
+                <img class= "box-carrousel" src="img/banner_inverno_promocao.png" alt="banner_inverno_promocao">
+            </div>
+        </div>
+
+        <div class="flexbox">
+            <h1>Mais vendidos</h1>
+        </div>
+
+        <section class="flex-container">
+            <div>
+                <div class="product-image">
+                    <img src="img/oleo_essencial_alecrim.jpg" alt="oleo_essencial_alecrim" height="200px">
+                </div>
+                <div class="product-description">
+                    <h3>Óleo Essenciaal Alecrim WNF - 10ml</h3>
+                    <h4>R$ 50,00</h4>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <div class="product-image">
+                    <img src="img/oleo_essencial_cravo_folha.jpg" alt="oleo_essencial_cravo_folha" height="200px">
+                </div>
+                <div class="product-description">
+                    <h3>Óleo Essenciaal Cravo Folha WNF - 10ml</h3>
+                    <h4>R$ 50,00</h4>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <div class="product-image">
+                    <img src="img/oleo_essencial_laranja_doce.jpg" alt="oleo_essencial_laranja_doce" height="200px">
+                </div>
+                <div class="product-description">
+                    <h3>Óleo Essencial Laranja Doce WNF - 10ml</h3>
+                    <h4>R$ 50,00</h4>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div>
+                <div class="product-image">
+                    <img src="img/oleo_essencial_palmarosa.jpg" alt="oleo_essencial_palmarosa" height="200px">
+                </div>
+                <div class="product-description">
+                    <h3>Óleo Essencial Palmarosa WNF - 10ml</h3>
+                    <h4>R$ 50,00</h4>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="form">
+            <h2>Cadastre-se e receba ofertas e novidades exclusivas por e-mail</h2>
+            <form class="input-field-2">
+                
+                <input type="text" placeholder="Insira o seu nome" id="nome" required>
+                <label id="labelNome" for="nome">Nome</label>
+                
+                <input type="email" placeholder="Insira o seu e-mail" id="email" required>
+                <label id="labelEmail" for="email">E-mail</label>
+
+                <input type="tel" placeholder="Insira o seu telefone" id="telefone" required>
+                <label id="labelTelefone" for="telefone">Telefone</label>
+                
+                <button onclick='cadastrar()'>Cadastrar</button>
+            </form>
+            <div class="register">
+                <h4>Ao clicar em "Cadastrar", aceito e-mails com novidades e promoções Naturaleza</h4>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="#">Quem somos</a>
+            <a href="#">Fale conosco</a>
+            <p>Naturaleza &copy;</p>
+            <a href="#">Garantia e trocas</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+    </footer>
+
+    <!--Font Awesome CSS-->
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+
+    <!--JAVASCRIPT-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

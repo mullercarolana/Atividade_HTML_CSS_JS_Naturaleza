@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --verde1: #355746;
+    --verde2: #4B7A63;
+    --verde3: #72BA97;
+    --cinza1: #333333;
+    --cinza2: #F5F5F5;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Elementos Base */
+body {
+    background: var(--branco);
+    color: var(--verde1);
+}
+
+header .container {
+    padding: 1rem 5rem 1rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    color: var(--verde1);
+}
+
+header .logo-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+#menu a {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    color: var(--verde3);
+}
+
+header .input-field input{
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+header .input-field a {
+    font-size: 18px;
+    color: var(--verde1);
+}
+
+header .input-field a:hover {
+    color: var(--verde3);
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.box-carrousel {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* CSS FLEXBOX */
+.flexbox h1 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    margin: auto;
+    flex: 300px;
+    margin: 40px 70px 40px 70px;
+}
+
+.product-description h3 {
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+
+.product-description h4 {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    margin: auto;
+}
+
+.product-description button {
+    display: flex;
+    margin: auto;
+    border: 0;
+    padding: 10px 60px 10px 60px;
+    background-color: var(--verde1);
+    color:var(--branco);
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form {
+    padding: 60px;
+    background-color:var(--cinza2);
+    display: block;
+    position: relative;
+}
+
+.form h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.input-field-2 label {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.input-field-2 input {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px 90px 3px 90px;
+    font-size: 15px;
+}
+
+.input-field-2 button {
+    margin: auto;
+    display: flex;
+    border: 0;
+    margin-top: 30px;
+    padding: 10px 60px 10px 60px;
+    background-color: var(--verde1);
+    color:var(--branco);
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.register h4 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 40px;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer a {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.footer a:hover {
+    color: var(--verde3);
+}
+

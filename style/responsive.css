@@ -1,0 +1,152 @@
+@media screen and (max-width:500px) {  
+    header .container {
+    display: flex;
+    }
+
+    header .logo-container h1 {
+    font-size: 15px;
+    font-weight: 700;
+    } 
+
+    #btn-mobile {
+    display: flex;
+    color: #355746;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    }
+
+    #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    right: 0px;
+    background-color:var(--cinza2);
+    height: 0px;
+    transition: .6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    }
+
+    #menu a {
+    display: list-item;
+    padding: 1rem 0rem;
+    margin: 0 1rem;
+    color: #355746;;
+    border-bottom: 2px solid #72BA97;
+    }
+
+    #navigation.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+    }
+
+    header .input-field input{
+    display: none;
+    } 
+
+    .form h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 25px;
+    }
+
+    .register h4 {
+    padding-top: 40px;
+    font-size: 12px;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width:999px) {
+    header .container {
+    display: flex;
+    }
+
+    header .logo-container h1 {
+    font-size: 15px;
+    font-weight: 700;
+    } 
+
+    #btn-mobile {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    }
+
+    #menu {
+    display: block;
+    color: #355746;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    right: 0px;
+    background-color:var(--cinza2);
+    height: 0px;
+    transition: .6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    }
+
+    #menu a {
+    display: list-item;
+    padding: 1rem 0rem;
+    margin: 0 1rem;
+    color: #355746;
+    border-bottom: 2px solid #72BA97;
+    }
+
+    #navigation.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+    }
+
+    header .input-field input{
+    display: none;
+    }
+
+    .flexbox h1 {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    }
+
+    .flex-container {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .flex-container div {
+    margin: auto;
+    flex: 300px;
+    margin: 20px 30px 20px 30px;
+    }
+
+    .input-field-2 input {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 9px;
+    padding: 3px 60px 3px 60px; 
+    }
+
+    .footer {
+    display: flex;
+    flex-direction: column;
+    }
+}
